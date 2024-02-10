@@ -1,0 +1,21 @@
+class Curve:
+	def __init__(self, start, stop, nbr_points = 5432):
+		self. start =  start
+		self.stop = stop
+		self.nbr_points = 5432
+
+  def __init__(self, x):
+    self.x = x
+
+  def get_x(self):
+    return self.x**5
+
+  def get_tracer(self):
+    x = np.linspace(start, stop,30)
+    y = x ** 5
+    fig = plt.figure(figsize = (5, 5))
+    plt.plot(x, y)
+    plt.show()
+    return
+
+  def get_positionPoint(self):
