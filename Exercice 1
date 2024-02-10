@@ -1,0 +1,10 @@
+import matplotlib.pyplot as plt
+import numpy as np
+x = np.linspace(0, 1, 30)
+y = x ** 5
+x1 = np.array([0, 1, 1, 0, 0])
+y1 = np.array([0, 0, 1, 1, 0])
+fig = plt.figure(figsize = (5, 5))
+plt.plot(x1, y1)
+plt.plot(x, y)
+plt.show()
